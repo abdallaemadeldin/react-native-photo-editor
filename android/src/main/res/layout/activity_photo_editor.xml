@@ -55,27 +55,23 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:padding="10dp"
                 android:src="@drawable/success"
+                android:background="@null"
                 android:visibility="gone" />
 
-            <TextView
+            <ImageButton
                 android:id="@+id/erase_drawing_tv"
+                android:layout_toStartOf="@+id/done_drawing_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_toStartOf="@+id/done_drawing_tv"
-                android:padding="10dp"
-                android:shadowColor="#000000"
-                android:shadowDx="1"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:text="@string/erase"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/eraser"
+                android:background="@null"
                 android:visibility="gone" />
 
             <android.support.v7.widget.RecyclerView
