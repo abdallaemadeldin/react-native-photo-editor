@@ -57,13 +57,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
-                android:shadowColor="#000000"
-                android:shadowDx="1"
-                android:shadowDy="1"
-                android:shadowRadius="2"
-                android:src="@drawable/aa.png"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
+                android:src="@drawable/success"
                 android:visibility="gone" />
 
             <TextView
